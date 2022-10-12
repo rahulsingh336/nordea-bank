@@ -9,11 +9,12 @@ pushes data to internal system for further workflow/analytics etc..
 3. Statement processor service
 
 ### External third party service
-    This might be newly acquired system for which integratio is required. Customer actual transactions/Statement is stored in this CRM system
+    This might be newly acquired system for which integration is required.
+    Customer's actual transactions/Statement is stored in this CRM system
 ### Data-Transformer service
     Middleware data transformation service
 ### Statement processor service
-    This receives tranformed data and does furhter processing for example send email etc..
+    This receives tranformed data and does further processing for example send email etc..
 
 ## Flow Diagram
 ![alt text](https://github.com/rahulsingh336/nordea-bank/blob/09b3ed452ba896ee523a642f6ddca34f82da1511/docs/data-transformation-flow.JPG?raw=true)
@@ -28,8 +29,10 @@ pushes data to internal system for further workflow/analytics etc..
 
 ## Answer to question 
  ##### What problem does this application try to solve?
-       This application is trying to solve a problem where we have difference of contract or may be integration 
-       of newly acquired system where we need data in certain format but it is not available
+       1. This application is trying to solve a problem where we have difference of contract or may be integration 
+          of newly acquired system where we need data in certain format but it is not available
+       2. Other use case might be where we need to generate Monthly statement in certian format depending on some trigger, so that it can be used 
+          by other systems.
 
  ##### How to design your application so that it is testable?
        Integration test using contract validation
