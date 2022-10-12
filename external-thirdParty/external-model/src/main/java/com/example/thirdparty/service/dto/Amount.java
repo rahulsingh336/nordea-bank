@@ -10,10 +10,10 @@ import lombok.Data;
 @Data
 public class Amount {
 
-  @JsonProperty("Amount")
-  private Long amount;
+  @JsonProperty("amount")
+  private String amount;
 
-  @JsonProperty("Currency")
+  @JsonProperty("currency")
   private String currency;
 
 }

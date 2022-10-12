@@ -13,7 +13,7 @@ import java.util.List;
 @Data
 public class Statement {
 
-  @JsonProperty("Transaction")
+  @JsonProperty("transactions")
   private List<Transaction> transaction = new ArrayList<>();
 
 }

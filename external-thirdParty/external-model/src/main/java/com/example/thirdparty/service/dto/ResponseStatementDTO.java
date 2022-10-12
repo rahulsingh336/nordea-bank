@@ -6,7 +6,7 @@ import lombok.Data;
 @Data
 public class ResponseStatementDTO {
 
-    @JsonProperty("Statement")
+    @JsonProperty("statement")
     private Statement statement;
 
 }

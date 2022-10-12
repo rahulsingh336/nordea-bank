@@ -9,20 +9,20 @@ import lombok.Data;
 @Data
 public class Transaction {
 
-  @JsonProperty("Amount")
+  @JsonProperty("amount")
   private Amount amount;
 
-  @JsonProperty("CreditDebitIndicator")
+  @JsonProperty("creditDebitIndicator")
   private String creditDebitIndicator;
 
-  @JsonProperty("CreditDebitDate")
+  @JsonProperty("creditDebitDate")
   private String creditDebitDate;
 
-  @JsonProperty("CreditDebitDescription")
+  @JsonProperty("creditDebitDescription")
   private String creditDebitDescription;
 
-  @JsonProperty("Type")
-  private String type;
+  @JsonProperty("closingBalance")
+  private String closingBalance;
 
 }
 
