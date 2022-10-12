@@ -35,7 +35,7 @@ pushes data to internal system for further workflow/analytics etc..
           by other systems.
 
  ##### How to design your application so that it is testable?
-       Integration test using contract validation, stubs generated and installed for local testing, in real time can be downloaded from artifactory.
+       Integration test using contract validation (stubs generated from producer and installed for local testing, in real time can be downloaded from artifactory.)
 
  ##### If the application must be deployed to a server in remote location, how would you do it?
        By creating a docker image and run on machine which supports docker
