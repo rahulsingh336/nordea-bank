@@ -16,7 +16,7 @@ pushes data to internal system for further workflow/analytics etc..
     This receives tranformed data and does furhter processing for example send email etc..
 
 ## Flow Diagram
-![Alt text](./docs/data-transformation-flow.jpg?raw=true "Flow")
+![alt text](https://github.com/rahulsingh336/nordea-bank/blob/09b3ed452ba896ee523a642f6ddca34f82da1511/docs/data-transformation-flow.JPG?raw=true)
 
 ## Contract verification
    "spring-cloud-starter-contract-verifier" is used to generated stubs for contract in external-third party and statement processor service
